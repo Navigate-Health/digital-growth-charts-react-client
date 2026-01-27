@@ -432,9 +432,6 @@ const MeasurementSegment=({})=> {
                       onChange={() => setClinician(!clinician)}
                     />
                   </Grid.Column>
-                  <Grid.Column textAlign="center" width={4}>
-                    <ThemeSelection />
-                  </Grid.Column>
                   <Grid.Column textAlign="right" width={8}>
                     <Button
                       onClick={handleCentileSDS}
@@ -455,16 +452,6 @@ const MeasurementSegment=({})=> {
               </Grid>
             </Segment>
           </Grid.Column>
-        </Grid.Row>
-        <Grid.Row>
-          <Container>
-            <Message
-              icon={"warning sign"}
-              header={"DISCLAIMER"}
-              content="This is for demonstration purposes only and is not for clinical use."
-              color="red"
-            />
-          </Container>
         </Grid.Row>
       </Grid>
 
