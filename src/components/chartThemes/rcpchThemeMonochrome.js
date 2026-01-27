@@ -50,7 +50,7 @@ const tooltipTextStyle = new TextStyleObject(
   "normal"
 );
 const infoBoxTextStyle = new TextStyleObject(
-  "Montserrat",
+  "Poppins",
   "#000000",
   6,
   "normal"
