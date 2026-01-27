@@ -29,7 +29,7 @@
 @veryLightBg: #f8f8f9;
 @lightBlueBg: #f6f8ff;
 
-/* Legacy RCPCH Colours (for backward compatibility) */
+/* RCPCH Colour Variables - Updated to PatientInfo branding */
 @rcpch-nav-actv: #4768fd;
 @rcpch-nav: #4768fd;
 @rcpch-dark-blue-header: #32325d;

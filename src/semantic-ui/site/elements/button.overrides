@@ -41,12 +41,11 @@
 .ui.basic.buttons.preset-buttons .button:disabled,
 .ui.basic.button.preset-buttons.disabled,
 .ui.basic.button.preset-buttons:disabled {
-  background: #f8f8f9 !important;
-  color: #6f6f8c !important;
-  border-color: #dedee2 !important;
+  background: #e8e8eb !important;
+  color: #9696a0 !important;
+  border-color: #d4d4d8 !important;
   box-shadow: none !important;
   cursor: not-allowed !important;
-  opacity: 0.45 !important;
   pointer-events: none !important; /* ensure no hover */
 }
 
@@ -57,8 +56,8 @@
 .ui.basic.buttons.preset-buttons .button:disabled:hover,
 .ui.basic.button.preset-buttons.disabled:hover,
 .ui.basic.button.preset-buttons:disabled:hover {
-  background: #f8f8f9 !important;
-  color: #6f6f8c !important;
-  border-color: #dedee2 !important;
+  background: #e8e8eb !important;
+  color: #9696a0 !important;
+  border-color: #d4d4d8 !important;
   box-shadow: none !important;
 }
