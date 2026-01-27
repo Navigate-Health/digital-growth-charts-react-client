@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 export const ResultsSegment = ({ apiResult, reference }) => {
   // const fonts = [
-  //   "Montserrat",
+  //   "Poppins",
   //   "Roboto",
   //   "Lato",
   //   "Open Sans",
@@ -111,7 +111,7 @@ export const ResultsSegment = ({ apiResult, reference }) => {
             <Select
               selection
               options={fontOptions}
-              defaultValue={"Montserrat"}
+              defaultValue={"Poppins"}
               onChange={(e, choice) => handleSelectFontChoice(choice)}
             ></Select>
           </Form.Field>

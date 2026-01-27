@@ -21,7 +21,7 @@ text: #000000 - black
 background colour: #FFFFFF - white
 centile width: 1.5 px
 
-font: Montserrat normal
+font: Poppins normal
 
 */
 
@@ -44,13 +44,13 @@ const titleStyle = new TextStyleObject("Arial", "#000000", 14, "bold");
 const subTitleStyle = new TextStyleObject("Arial", "#000000", 14, "normal");
 
 const tooltipTextStyle = new TextStyleObject(
-  "Montserrat",
+  "Poppins",
   "#000000",
   18,
   "normal"
 );
 const infoBoxTextStyle = new TextStyleObject(
-  "Montserrat",
+  "Poppins",
   "#000000",
   6,
   "normal"
