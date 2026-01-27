@@ -345,7 +345,7 @@ const FictionalChildForm = (props) => {
             content="Generate Growth Data"
             type="submit"
             fluid
-            color="black"
+            color="primary"
             icon="line graph"
             labelPosition="right"
             disabled={errorMessage !== ""}

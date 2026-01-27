@@ -44,7 +44,7 @@ measurement-form .field > label,
     width: 100%;
     margin-left: 0 !important;   /* undo group’s negative margin */
     margin-top: 0.5rem;          /* spacing between rows */
-    border-radius: 0.28571429rem !important; /* normal button radius */
+    border-radius: 12px !important; /* PatientInfo brand border radius */
   }
   .preset-buttons.ui.buttons > .button:first-child {
     margin-top: 0;

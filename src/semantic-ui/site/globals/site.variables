@@ -13,7 +13,7 @@
 @fontName: 'Poppins';
 @importGoogleFonts: false;
 
-@defaultBorderRadius: 4px;
+@defaultBorderRadius: 12px;
 
 /* PatientInfo Brand Colours */
 /* Primary Colors */

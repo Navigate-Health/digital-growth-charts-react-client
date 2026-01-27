@@ -435,7 +435,7 @@ const MeasurementSegment=({})=> {
                   <Grid.Column textAlign="right" width={8}>
                     <Button
                       onClick={handleCentileSDS}
-                      color="black"
+                      color="primary"
                       disabled={flip}
                     >
                       {centile ? "Show SDS Chart" : "Show Centile Charts"}
