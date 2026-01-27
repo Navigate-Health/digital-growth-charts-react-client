@@ -23,7 +23,6 @@ const ChartData=(props)=> {
         reference={props.reference}
         measurementMethod={props.measurementMethod}
         sex={props.sex}
-        title={"Name - Hospital Number"}
         measurements={measurements} // this is the plottable child data: NOTE IN Charts 7.0.0 this has changed
         midParentalHeightData={props.midParentalHeightData}
         theme={props.theme}
