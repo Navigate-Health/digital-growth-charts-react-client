@@ -2,20 +2,20 @@
     User Variable Overrides
 *******************************/
 
-/* Global colors */
-@primaryColor: #000;
-@positiveColor: #000;
+/* PatientInfo Brand Button Colors */
+@primaryColor: #4768fd;
+@positiveColor: #4768fd;
 
-/* Reduce/neutralize focus effects globally */
-@focusBoxShadow: none;
-@invertedFocusBoxShadow: none;
+/* Focus effects - PatientInfo style */
+@focusBoxShadow: 0 0 0 4px #151527;
+@invertedFocusBoxShadow: 0 0 0 4px #151527;
 
-/* Toggle (radio-like) buttons: active state is black/white */
-@toggleOnBackgroundColor: #000;
+/* Toggle (radio-like) buttons: active state using brand colors */
+@toggleOnBackgroundColor: #4768fd;
 @toggleOnTextColor: #fff;
-@toggleOnBorderColor: #000;
+@toggleOnBorderColor: #4768fd;
 
 /* Pressed/clicked (:active) state for non-active buttons */
-@downBackgroundColor: #e6e6e6;
-@downTextColor: #000;
-@downBorderColor: #d4d4d5;
+@downBackgroundColor: #f6f8ff;
+@downTextColor: #32325d;
+@downBorderColor: #4768fd;

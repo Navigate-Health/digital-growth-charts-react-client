@@ -13,12 +13,26 @@
 @fontName: 'Poppins';
 @importGoogleFonts: false;
 
-@defaultBorderRadius: 0em;
+@defaultBorderRadius: 4px;
 
-/* Colours */
-@rcpch-nav-actv: #1B469C;
-@rcpch-nav: #3366cc;
-@rcpch-dark-blue-header: #0d0d58;
+/* PatientInfo Brand Colours */
+/* Primary Colors */
+@primaryAccentBlue: #4768fd;
+@darkText: #32325d;
+@veryDark: #151527;
+@sectionPurple: #503eae;
 
-@blue: #3366cc;
+/* Gray Scale */
+@mediumGray: #6f6f8c;
+@borderGray: #b8b8bf;
+@lightBorder: #dedee2;
+@veryLightBg: #f8f8f9;
+@lightBlueBg: #f6f8ff;
+
+/* Legacy RCPCH Colours (for backward compatibility) */
+@rcpch-nav-actv: #4768fd;
+@rcpch-nav: #4768fd;
+@rcpch-dark-blue-header: #32325d;
+
+@blue: #4768fd;
 @pink: #e00087;

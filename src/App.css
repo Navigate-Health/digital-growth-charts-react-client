@@ -11,7 +11,7 @@
 }
 
 .royalcolleges {
-  color: #000;
+  color: #32325d;
 }
 
 body {
@@ -50,11 +50,15 @@ measurement-form .field > label,
     margin-top: 0;
   }
 }
-/* RCPCH Colours 
+/* PatientInfo Brand Colours 
 
-Heading text #0d0d58;
-Nav Blue #1B469C;
-Nav Blue #3366cc;
+Primary Blue: #4768fd
+Dark Text: #32325d
+Very Dark (focus): #151527
+Section Purple: #503eae
 
+Legacy RCPCH Colours:
+Heading text: #32325d (updated)
+Nav Blue: #4768fd (updated)
 
 */

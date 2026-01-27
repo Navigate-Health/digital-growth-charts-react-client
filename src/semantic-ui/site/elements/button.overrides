@@ -2,32 +2,33 @@
          Site Overrides
 *******************************/
 
-/* Ensure no green flash and consistent pressed/focus styles app-wide */
+/* PatientInfo brand colors for toggle buttons */
 .ui.toggle.buttons .button.active,
 .ui.toggle.button.active {
-  background: #000 !important;
+  background: #4768fd !important;
   color: #fff !important;
-  border-color: #000 !important;
+  border-color: #4768fd !important;
 }
 
+/* Focus and active states using brand colors */
 .ui.buttons .button:active,
 .ui.button:active,
 .ui.buttons .button:focus,
 .ui.button:focus {
-  background: #e6e6e6 !important;
-  color: #000 !important;
-  border-color: #d4d4d5 !important;
-  box-shadow: none !important;
+  background: #f6f8ff !important;
+  color: #32325d !important;
+  border-color: #4768fd !important;
+  box-shadow: 0 0 0 4px #151527 !important;
 }
 
-/* Hover styling for preset radio button group - increase specificity for basic buttons */
+/* Hover styling for preset radio button group - PatientInfo brand colors */
 .ui.basic.buttons.preset-buttons .button:not(.disabled):not([disabled]):hover,
 .ui.buttons.preset-buttons .button:not(.disabled):not([disabled]):hover,
 .ui.basic.button.preset-buttons:not(.disabled):not([disabled]):hover,
 .preset-buttons .button:not(.disabled):not([disabled]):hover {
-  background: #000 !important;
+  background: #4768fd !important;
   color: #fff !important;
-  border-color: #000 !important;
+  border-color: #4768fd !important;
   box-shadow: none !important;
 }
 
@@ -40,9 +41,9 @@
 .ui.basic.buttons.preset-buttons .button:disabled,
 .ui.basic.button.preset-buttons.disabled,
 .ui.basic.button.preset-buttons:disabled {
-  background: #f2f2f2 !important;
-  color: #aaa !important;
-  border-color: #d4d4d5 !important;
+  background: #f8f8f9 !important;
+  color: #6f6f8c !important;
+  border-color: #dedee2 !important;
   box-shadow: none !important;
   cursor: not-allowed !important;
   opacity: 0.45 !important;
@@ -56,8 +57,8 @@
 .ui.basic.buttons.preset-buttons .button:disabled:hover,
 .ui.basic.button.preset-buttons.disabled:hover,
 .ui.basic.button.preset-buttons:disabled:hover {
-  background: #f2f2f2 !important;
-  color: #aaa !important;
-  border-color: #d4d4d5 !important;
+  background: #f8f8f9 !important;
+  color: #6f6f8c !important;
+  border-color: #dedee2 !important;
   box-shadow: none !important;
 }
