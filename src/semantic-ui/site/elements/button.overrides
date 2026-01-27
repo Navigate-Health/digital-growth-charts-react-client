@@ -2,6 +2,33 @@
          Site Overrides
 *******************************/
 
+/* PatientInfo brand colors - Map black buttons to primary blue */
+.ui.black.buttons .button,
+.ui.black.button {
+  background-color: #4768fd !important;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+
+.ui.black.button:hover,
+.ui.black.buttons .button:hover {
+  background-color: #3654ea !important;
+  color: #FFFFFF;
+}
+
+.ui.black.button:focus,
+.ui.black.buttons .button:focus {
+  background-color: #3654ea !important;
+  color: #FFFFFF;
+}
+
+.ui.black.button:active,
+.ui.black.buttons .button:active {
+  background-color: #2d45d0 !important;
+  color: #FFFFFF;
+}
+
 /* PatientInfo brand colors for toggle buttons */
 .ui.toggle.buttons .button.active,
 .ui.toggle.button.active {
