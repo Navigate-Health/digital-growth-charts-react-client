@@ -21,7 +21,7 @@ text: #000000 - black
 background colour: #FFFFFF - white
 centile width: 1.5 px
 
-font: Montserrat normal
+font: Poppins normal
 
 */
 
@@ -39,7 +39,7 @@ const measurementsFill = "#000000";
 const highlightedMeasurementFill = "#e60700"; // centile colour
 const axisLabelSize = 10;
 const tickLabelSize = 8;
-// const axisLabelFont = "Montserrat"
+// const axisLabelFont = "Poppins"
 const midparentalHeightStroke = "#e60700";
 const midparentalHeightStrokeWidth = 0.25;
 const midparentalHeightFill = "#f59c99";
@@ -48,13 +48,13 @@ const titleStyle = new TextStyleObject("Arial", "#000000", 14, "bold");
 const subTitleStyle = new TextStyleObject("Arial", "#000000", 14, "normal");
 
 const tooltipTextStyle = new TextStyleObject(
-  "Montserrat",
+  "Poppins",
   tooltipTextColour,
   18,
   "normal"
 );
 const infoBoxTextStyle = new TextStyleObject(
-  "Montserrat",
+  "Poppins",
   "#000000",
   6,
   "normal"

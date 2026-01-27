@@ -10,7 +10,7 @@
 @brandFontPath       : '@{basePath}fonts';
 
 /* Fonts */
-@fontName: 'Montserrat';
+@fontName: 'Poppins';
 @importGoogleFonts: false;
 
 @defaultBorderRadius: 0em;
