@@ -17,7 +17,7 @@
 
 /* PatientInfo Brand Colours */
 /* Primary Colors */
-@primaryAccentBlue: #4768fd;
+@primaryAccentBlue: #1e2c6a;
 @darkText: #32325d;
 @veryDark: #151527;
 @sectionPurple: #503eae;
@@ -30,9 +30,9 @@
 @lightBlueBg: #f6f8ff;
 
 /* RCPCH Colour Variables - Updated to PatientInfo branding */
-@rcpch-nav-actv: #4768fd;
-@rcpch-nav: #4768fd;
+@rcpch-nav-actv: #1e2c6a;
+@rcpch-nav: #1e2c6a;
 @rcpch-dark-blue-header: #32325d;
 
-@blue: #4768fd;
+@blue: #1e2c6a;
 @pink: #e00087;

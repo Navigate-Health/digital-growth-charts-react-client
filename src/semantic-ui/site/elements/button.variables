@@ -3,19 +3,19 @@
 *******************************/
 
 /* PatientInfo Brand Button Colors */
-@primaryColor: #4768fd;
-@positiveColor: #4768fd;
+@primaryColor: #1e2c6a;
+@positiveColor: #1e2c6a;
 
 /* Focus effects - PatientInfo style */
 @focusBoxShadow: 0 0 0 4px #151527;
 @invertedFocusBoxShadow: 0 0 0 4px #151527;
 
 /* Toggle (radio-like) buttons: active state using brand colors */
-@toggleOnBackgroundColor: #4768fd;
+@toggleOnBackgroundColor: #1e2c6a;
 @toggleOnTextColor: #fff;
-@toggleOnBorderColor: #4768fd;
+@toggleOnBorderColor: #1e2c6a;
 
 /* Pressed/clicked (:active) state for non-active buttons */
 @downBackgroundColor: #f6f8ff;
 @downTextColor: #32325d;
-@downBorderColor: #4768fd;
+@downBorderColor: #1e2c6a;
