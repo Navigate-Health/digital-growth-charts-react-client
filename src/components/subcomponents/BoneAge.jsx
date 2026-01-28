@@ -30,7 +30,6 @@ function BoneAgeTypeSelect(props) {
             label={{
               content: "years",
               basic: true,
-              color: "black",
             }}
             value={props.boneAge}
             onChange={props.handleBoneAgeChange}
@@ -47,7 +46,6 @@ function BoneAgeTypeSelect(props) {
             label={{
               content: "SDS",
               basic: true,
-              color: "black",
             }}
             value={props.boneAgeSDS}
             onChange={props.handleBoneAgeSDSChange}
@@ -62,7 +60,6 @@ function BoneAgeTypeSelect(props) {
             label={{
               content: "centile",
               basic: true,
-              color: "black",
             }}
             value={props.boneAgeCentile}
             onChange={props.handleBoneAgeCentileChange}

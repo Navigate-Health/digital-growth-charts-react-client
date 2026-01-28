@@ -243,7 +243,6 @@ const FictionalChildForm = (props) => {
             label={{
               content: "years",
               basic: true,
-              color: "black",
             }}
             labelPosition="right"
             onChange={handleObservationChange}
@@ -258,7 +257,6 @@ const FictionalChildForm = (props) => {
             label={{
               content: "years",
               basic: true,
-              color: "black",
             }}
             labelPosition="right"
             onChange={handleObservationChange}
