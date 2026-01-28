@@ -388,7 +388,6 @@ const MeasurementSegment=({})=> {
           <Grid.Column width={6}>
             <Segment
               textAlign={"center"}
-              color={mode === "fictional-child-data" ? "black" : null}
             >
               <Tab
                 key="measurementTabs"
@@ -404,7 +403,7 @@ const MeasurementSegment=({})=> {
             </Segment>
           </Grid.Column>
           <Grid.Column width={10}>
-            <Segment color={mode === "fictional-child-data" ? "black" : null}>
+            <Segment>
               {flip ? (
                 <ResultsSegment apiResult={results} reference={reference} />
               ) : (

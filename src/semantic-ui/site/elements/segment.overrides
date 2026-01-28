@@ -1,3 +1,22 @@
 /*******************************
          Site Overrides
 *******************************/
+
+/* PatientInfo Brand - Ensure attached segments have proper border radius */
+.ui.attached.segment {
+  border-radius: 12px;
+}
+
+.ui.bottom.attached.segment {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.ui.top.attached.segment {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}

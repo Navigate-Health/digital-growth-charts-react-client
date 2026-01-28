@@ -2,5 +2,8 @@
     User Variable Overrides
 *******************************/
 
+/* PatientInfo Brand - Border Radius for attached segments */
+@attachedBorderRadius: 12px;
+
 /* PatientInfo Brand - Border Radius */
 @borderRadius: 12px;

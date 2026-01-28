@@ -500,7 +500,6 @@ const MeasurementForm = (props) => {
                       label={{
                         content: props.globalState.units.toString(),
                         basic: true,
-                        color: "black",
                       }}
                       labelPosition="right"
                       onChange={handleObservationChange}
