@@ -25,7 +25,6 @@ const UtilitiesForm = (props) => {
               label={{
                 content: "cm",
                 basic: true,
-                color: "black",
               }}
               labelPosition="right"
             />
@@ -40,7 +39,6 @@ const UtilitiesForm = (props) => {
               label={{
                 content: "cm",
                 basic: true,
-                color: "black",
               }}
               labelPosition="right"
             />
@@ -51,7 +49,7 @@ const UtilitiesForm = (props) => {
             disabled={
               props.maternalHeight && props.paternalHeight ? false : true
             }
-            color="black"
+            color="primary"
             fluid={true}
             type={"submit"}
           >

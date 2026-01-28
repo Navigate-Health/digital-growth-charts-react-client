@@ -1,3 +1,9 @@
 /*******************************
          Site Overrides
 *******************************/
+
+/* PatientInfo Brand - Active menu item hover should use brand blue */
+.ui.secondary.pointing.menu .active.item:hover {
+  border-color: #1e2c6a;
+  color: #1e2c6a;
+}

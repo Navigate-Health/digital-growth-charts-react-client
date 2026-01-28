@@ -2,32 +2,60 @@
          Site Overrides
 *******************************/
 
-/* Ensure no green flash and consistent pressed/focus styles app-wide */
-.ui.toggle.buttons .button.active,
-.ui.toggle.button.active {
-  background: #000 !important;
-  color: #fff !important;
-  border-color: #000 !important;
+/* PatientInfo brand colors - Map black buttons to primary dark blue */
+.ui.black.buttons .button,
+.ui.black.button {
+  background-color: #1e2c6a !important;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
 }
 
+.ui.black.button:hover,
+.ui.black.buttons .button:hover {
+  background-color: #2a3a8c !important;
+  color: #FFFFFF;
+}
+
+.ui.black.button:focus,
+.ui.black.buttons .button:focus {
+  background-color: #2a3a8c !important;
+  color: #FFFFFF;
+}
+
+.ui.black.button:active,
+.ui.black.buttons .button:active {
+  background-color: #141f4a !important;
+  color: #FFFFFF;
+}
+
+/* PatientInfo brand colors for toggle buttons */
+.ui.toggle.buttons .button.active,
+.ui.toggle.button.active {
+  background: #1e2c6a !important;
+  color: #fff !important;
+  border-color: #1e2c6a !important;
+}
+
+/* Focus and active states using brand colors */
 .ui.buttons .button:active,
 .ui.button:active,
 .ui.buttons .button:focus,
 .ui.button:focus {
-  background: #e6e6e6 !important;
-  color: #000 !important;
-  border-color: #d4d4d5 !important;
-  box-shadow: none !important;
+  background: #f6f8ff !important;
+  color: #32325d !important;
+  border-color: #1e2c6a !important;
+  box-shadow: 0 0 0 4px #151527 !important;
 }
 
-/* Hover styling for preset radio button group - increase specificity for basic buttons */
+/* Hover styling for preset radio button group - PatientInfo brand colors */
 .ui.basic.buttons.preset-buttons .button:not(.disabled):not([disabled]):hover,
 .ui.buttons.preset-buttons .button:not(.disabled):not([disabled]):hover,
 .ui.basic.button.preset-buttons:not(.disabled):not([disabled]):hover,
 .preset-buttons .button:not(.disabled):not([disabled]):hover {
-  background: #000 !important;
+  background: #1e2c6a !important;
   color: #fff !important;
-  border-color: #000 !important;
+  border-color: #1e2c6a !important;
   box-shadow: none !important;
 }
 
@@ -40,12 +68,11 @@
 .ui.basic.buttons.preset-buttons .button:disabled,
 .ui.basic.button.preset-buttons.disabled,
 .ui.basic.button.preset-buttons:disabled {
-  background: #f2f2f2 !important;
-  color: #aaa !important;
-  border-color: #d4d4d5 !important;
+  background: #e8e8eb !important;
+  color: #9696a0 !important;
+  border-color: #d4d4d8 !important;
   box-shadow: none !important;
   cursor: not-allowed !important;
-  opacity: 0.45 !important;
   pointer-events: none !important; /* ensure no hover */
 }
 
@@ -56,8 +83,8 @@
 .ui.basic.buttons.preset-buttons .button:disabled:hover,
 .ui.basic.button.preset-buttons.disabled:hover,
 .ui.basic.button.preset-buttons:disabled:hover {
-  background: #f2f2f2 !important;
-  color: #aaa !important;
-  border-color: #d4d4d5 !important;
+  background: #e8e8eb !important;
+  color: #9696a0 !important;
+  border-color: #d4d4d8 !important;
   box-shadow: none !important;
 }

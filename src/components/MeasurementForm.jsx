@@ -500,7 +500,6 @@ const MeasurementForm = (props) => {
                       label={{
                         content: props.globalState.units.toString(),
                         basic: true,
-                        color: "black",
                       }}
                       labelPosition="right"
                       onChange={handleObservationChange}
@@ -523,7 +522,7 @@ const MeasurementForm = (props) => {
                   fluid
                   labelPosition="left"
                   onClick={handleShowBoneAge}
-                  color="black"
+                  color="primary"
                 >
                   <Icon name="hand paper outline" />
                   Add Bone Age
@@ -536,7 +535,7 @@ const MeasurementForm = (props) => {
                 labelPosition="left"
                 onClick={handleShowEvents}
                 fluid
-                color="black"
+                color="primary"
               >
                 <Icon name="bookmark outline" />
                 Add Event
@@ -603,7 +602,7 @@ const MeasurementForm = (props) => {
               type="submit"
               fluid
               disabled={!form_valid}
-              color="black"
+              color="primary"
               icon="line graph"
               labelPosition="right"
             />

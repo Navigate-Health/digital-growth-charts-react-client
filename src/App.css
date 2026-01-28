@@ -11,7 +11,7 @@
 }
 
 .royalcolleges {
-  color: #000;
+  color: #32325d;
 }
 
 body {
@@ -44,17 +44,21 @@ measurement-form .field > label,
     width: 100%;
     margin-left: 0 !important;   /* undo group’s negative margin */
     margin-top: 0.5rem;          /* spacing between rows */
-    border-radius: 0.28571429rem !important; /* normal button radius */
+    border-radius: 12px !important; /* PatientInfo brand border radius */
   }
   .preset-buttons.ui.buttons > .button:first-child {
     margin-top: 0;
   }
 }
-/* RCPCH Colours 
+/* PatientInfo Brand Colours 
 
-Heading text #0d0d58;
-Nav Blue #1B469C;
-Nav Blue #3366cc;
+Primary Dark Blue: #1e2c6a
+Dark Text: #32325d
+Very Dark (focus): #151527
+Section Purple: #503eae
 
+Legacy RCPCH Colours:
+Heading text: #32325d (updated)
+Nav Blue: #1e2c6a (updated)
 
 */

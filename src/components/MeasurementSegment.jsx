@@ -388,7 +388,6 @@ const MeasurementSegment=({})=> {
           <Grid.Column width={6}>
             <Segment
               textAlign={"center"}
-              color={mode === "fictional-child-data" ? "black" : null}
             >
               <Tab
                 key="measurementTabs"
@@ -404,7 +403,7 @@ const MeasurementSegment=({})=> {
             </Segment>
           </Grid.Column>
           <Grid.Column width={10}>
-            <Segment color={mode === "fictional-child-data" ? "black" : null}>
+            <Segment>
               {flip ? (
                 <ResultsSegment apiResult={results} reference={reference} />
               ) : (
@@ -435,7 +434,7 @@ const MeasurementSegment=({})=> {
                   <Grid.Column textAlign="right" width={8}>
                     <Button
                       onClick={handleCentileSDS}
-                      color="black"
+                      color="primary"
                       disabled={flip}
                     >
                       {centile ? "Show SDS Chart" : "Show Centile Charts"}
